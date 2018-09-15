@@ -165,6 +165,18 @@ const links = [
         to: '/system/logs/files'
       }
     ]
+  },
+
+  {
+    iconName: icons.LIGHTBULB,
+    title: 'Extras',
+    to: '/extras/manualMapping',
+    children: [
+      {
+        title: 'Manual Mapping',
+        to: '/extras/manualMapping'
+      },
+    ]
   }
 ];
 

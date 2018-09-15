@@ -4,6 +4,7 @@ import * as blacklist from './blacklistActions';
 import * as calendar from './calendarActions';
 import * as captcha from './captchaActions';
 import * as devices from './deviceActions';
+import * as extras from './extraActions';
 import * as commands from './commandActions';
 import * as episodes from './episodeActions';
 import * as episodeFiles from './episodeFileActions';
@@ -38,6 +39,7 @@ export default [
   episodes,
   episodeFiles,
   episodeHistory,
+  extras,
   history,
   importSeries,
   interactiveImportActions,
